@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Single+Day&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html , body{
+    height: 100%;
+    width: 100%;
+}
+
+.left{
+    width: 25vw;
+    /* border: 2px solid red; */
+    height: 100vh;
+    position: sticky;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.headEl{
+    width: 100%;
+    height: 20vh;
+    /* border: 2px solid black; */
+    font-family: 'Roboto';
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: sticky;
+}
+
+.groups{
+    width: 100%;
+    height: 80vh ;
+    /* border: 2px solid blue; */
+    
+}
+
+.grpItem{
+    width: 100%;
+    margin-bottom: 2rem;
+    
+     /* border: 2px solid black; */
+     height: 12vh;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     /* padding: 2re; */
+     cursor: pointer;
+}
+
+.gLeft{
+    width: 22%;
+    height: 100%;
+    border: 2px solid darkmagenta;
+    border-radius: 50% 50%;
+    margin-right: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.gRight{
+    width: 60%;
+    height: 100%;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+     border: 2px solid darkred;
+}
+
+.plusBtn{
+     border: 2px solid black;
+     width: 4rem;
+     height: 4rem;
+     border-radius: 50% 50%;
+     font-size: 2rem;
+     background-color: #16008B;
+     color: #ffffff;
+  
+     /* margin-right: 1rem; */
+     position: fixed;
+     left: 18rem;
+     /* right: 2rem; */
+     border: none;
+     cursor: pointer;
+     bottom: 2rem;
+}
